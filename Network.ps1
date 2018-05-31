@@ -161,8 +161,10 @@ Param([Parameter(
                     }
             }
             
+            $report = @{ AdresseIP = $AdresseIP
+                         HostName = $HostName
+                         Status = $Status} 
 
-            $HostName
-            $Status
-        
+            $report
+
         }
